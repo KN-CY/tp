@@ -8,6 +8,10 @@ import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
 //@@author KN-CY
+
+/**
+ * Represents a command that add a shortcut that maps to a command.
+ */
 public class ShortcutAddCommand extends ShortcutCommand {
     private static final Logger logger = Logger.getLogger(ShortcutAddCommand.class.getName());
     private static String key;
@@ -19,6 +23,12 @@ public class ShortcutAddCommand extends ShortcutCommand {
         this.value = value;
     }
 
+    /**
+     * Executes ShortcutAddCommand.
+     *
+     * @return The command result to be printed.
+     * @throws RainyDayException If the shortcut that the user is trying to configure is invalid.
+     */
     @Override
     public CommandResult execute() throws RainyDayException {
         setupLogger();

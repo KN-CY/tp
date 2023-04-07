@@ -26,7 +26,8 @@ public class ExportCommand extends Command {
     /**
      * Executes the export command and returns the result
      *
-     * @return CommandResult with the relevant success or error message
+     * @return The command result to be printed.
+     * @throws RainyDayException If there are errors exporting to CSV.
      */
     @Override
     public CommandResult execute() throws RainyDayException {

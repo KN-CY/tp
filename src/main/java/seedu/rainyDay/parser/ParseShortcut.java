@@ -8,6 +8,12 @@ import seedu.rainyDay.exceptions.RainyDayException;
 //@@author KN-CY
 public class ParseShortcut {
 
+    /**
+     * Parses the add shortcut command to check if the user input is of a valid format
+     * @param userInput The input of the user.
+     * @return The ShortcutAddCommand object if the user input is valid.
+     * @throws RainyDayException If the user input is of an invalid format.
+     */
     public static Command generateShortcut(String userInput) throws RainyDayException {
         if (!userInput.contains(" -maps ")) {
             throw new RainyDayException(ErrorMessage.WRONG_SHORTCUT_FORMAT.toString());

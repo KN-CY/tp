@@ -67,11 +67,12 @@ public class Storage {
     }
 
     /**
-     * Uses deserialization to load the FinancialReport from a serialized file.
+     * Uses deserialization to load the SavedData from a serialized file.
      *
      * @param filePath The file path where the FinancialReport will be loaded from.
-     * @return The FinancialReport after deserialization from the file.
+     * @return The savedData after deserialization from the file.
      * @throws FileNotFoundException If the file specified by the filePath is not found.
+     * @throws RainyDayException     If the file is invalid.
      */
     public static SavedData loadFromFile(String filePath) throws FileNotFoundException, RainyDayException {
         setupLogger();
@@ -114,7 +115,7 @@ public class Storage {
 
 
     /**
-     * Checks if the financialReport in the UserData is valid.
+     * Checks if the financialReport in the SavedData is valid.
      *
      * @param financialReport The financialReport being loaded of JsonObject type.
      * @throws RainyDayException If financialReport is invalid.
@@ -123,7 +124,7 @@ public class Storage {
         if (!financialReport.has("financialStatements")) {
             throw new RainyDayException(ErrorMessage.INVALID_SAVED_FINANCIAL_STATEMENTS.toString());
         }
-        
+
         if (!financialReport.has("reportOwner")) {
             throw new RainyDayException(ErrorMessage.INVALID_SAVED_REPORT_OWNER.toString());
         }
@@ -137,7 +138,7 @@ public class Storage {
     }
 
     /**
-     * Checks if the financialStatements in the UserData is valid.
+     * Checks if the financialStatements in the SavedData is valid.
      *
      * @param financialStatements The financialStatements being loaded of JsonObject type.
      * @throws RainyDayException If financialStatements is invalid.
@@ -194,7 +195,7 @@ public class Storage {
     }
 
     /**
-     * Checks if the shortcutCommands in the UserData is valid.
+     * Checks if the shortcutCommands in the SavedData is valid.
      *
      * @param shortcutCommands The shortcutCommands being loaded of JsonObject type.
      * @throws RainyDayException If shortcutCommands is invalid.
@@ -213,10 +214,10 @@ public class Storage {
     }
 
     /**
-     * Uses JSON serialization to save the FinancialReport object into a JSON file.
+     * Uses JSON serialization to save the SavedData object into a JSON file.
      *
-     * @param savedData The object containing the UserData to save.
-     * @param filePath  The file path where the FinancialReport will be saved to.
+     * @param savedData The object containing the SavedData to save.
+     * @param filePath  The file path where the SavedData will be saved to.
      */
     public static void writeToFile(SavedData savedData, String filePath) {
         setupLogger();

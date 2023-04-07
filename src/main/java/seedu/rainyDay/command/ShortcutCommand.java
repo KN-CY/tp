@@ -8,6 +8,16 @@ import java.util.HashMap;
 public abstract class ShortcutCommand extends Command {
     protected static HashMap<String, String> shortcutCommands;
 
+    /**
+     * Checks if a shortcut to actual command mapping is valid and can be added into the
+     * shortcutCommands hashmap.
+     *
+     * @param shortcutCommands A hashmap containing all the shortcut to actual command mapping.
+     * @param key              The shortcut
+     * @param value            The actual command that the shortcut maps to.
+     * @throws RainyDayException If the key, value is pair is invalid and cannot be added to the shortcutCommands
+     *                           hashmap.
+     */
     public static void checkShortcutValidity(HashMap<String, String> shortcutCommands, String key, String value)
             throws RainyDayException {
         if (shortcutCommands.containsKey(key)) {

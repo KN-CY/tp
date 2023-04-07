@@ -9,6 +9,10 @@ import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
 //@@author KN-CY
+
+/**
+ * Represents a command that deletes a previously configured shortcut.
+ */
 public class ShortcutDeleteCommand extends ShortcutCommand {
     private static final Logger logger = Logger.getLogger(ShortcutAddCommand.class.getName());
 
@@ -19,6 +23,12 @@ public class ShortcutDeleteCommand extends ShortcutCommand {
         this.keyToDelete = key;
     }
 
+    /**
+     * Executes ShortcutDeleteCommand.
+     *
+     * @return The command result to be printed
+     * @throws RainyDayException If the shortcut that the user is trying to delete is invalid.
+     */
     @Override
     public CommandResult execute() throws RainyDayException {
         setupLogger();

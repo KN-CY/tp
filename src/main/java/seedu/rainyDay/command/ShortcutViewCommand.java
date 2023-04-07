@@ -7,6 +7,10 @@ import java.util.logging.LogManager;
 import java.util.logging.Logger;
 
 //@@author KN-CY
+
+/**
+ * Represents a command that allows the user to view all configured shortcuts.
+ */
 public class ShortcutViewCommand extends ShortcutCommand {
     private static final Logger logger = Logger.getLogger(ShortcutAddCommand.class.getName());
     private static final String TABLE_BORDER = "" +
@@ -41,6 +45,11 @@ public class ShortcutViewCommand extends ShortcutCommand {
         return result;
     }
 
+    /**
+     * Executes ShortcutViewCommand.
+     *
+     * @return The command result to be printed.
+     */
     @Override
     public CommandResult execute() {
         setupLogger();
