@@ -369,8 +369,6 @@ and use the `view` command afterwards to verify the edits are accurate:
 To save time searching through all the entries in the financial report, the "filter" feature of rainyDay
 helps you to extract certain transactions based on specific criteria.
 
-<div style="page-break-after: always;"></div>
-
 Format: **`filter [FLAG] {FIELD}`**
 
 * `FLAG` must be at least one of the following:
