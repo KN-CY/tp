@@ -111,10 +111,7 @@ install rainyDay on your device and start using it. Please refer to the steps be
        ![cmd prompt open.png](images/UserGuide/cmdPromptOpen.png)<br><br>
 5. Type `java -jar rainyDay.jar` in the terminal and press "Enter" on your keyboard to start the application. You should
    see the following if the start-up is successful. <br><br>
-   ![cmd start up.png](images/UserGuide/cmdStartUp.png) <br><br>
-
-<div style="page-break-after: always;"></div>
-
+   ![cmd start up.png](images/UserGuide/cmdStartUp.png) <br><br> <div style="page-break-after: always;"></div>
 6. Type your name and press "Enter". The following will be shown: <br><br>
    ![cmd enter name.png](images/UserGuide/cmdEnterName.png)
 
