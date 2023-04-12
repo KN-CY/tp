@@ -468,6 +468,8 @@ To do so, you can use the following command:
 
 [Jump back to Features Overview](#features-overview)
 
+<div style="page-break-after: always;"></div>
+
 ### Shortcuts
 
 After using rainyDay for a period of time, you realised that there are some commands that you seem to repeat frequently.
