@@ -153,6 +153,8 @@ install rainyDay on your device and start using it. Please refer to the steps be
         * [How to view the CSV file using Microsoft Excel?](#how-to-view-the-csv-file-using-microsoft-excel)
 * [Exiting rainyDay](#exiting-rainyday)
 
+<div style="page-break-after: always;"></div>
+
 ## Features
 
 ### Viewing help
@@ -661,6 +663,8 @@ and their contents do not affect rainyDay's functions. The "logs" folder and its
 
 **A**: You can use the filter feature! To do that, you can type `filter -date [TODAY'S DATE]`
 
+<div style="page-break-after: always;"></div>
+
 ## Command Summary
 
 | Action                                          | Format <br> Example input                                                                                                                                                                                                                                    |
@@ -682,6 +686,8 @@ and their contents do not affect rainyDay's functions. The "logs" folder and its
 | [Exit](#exiting-rainyday)                       | `bye`                                                                                                                                                                                                                                                        |
 
 [Jump back to Table of Contents](#content-page)
+
+<div style="page-break-after: always;"></div>
 
 ## Glossary
 
