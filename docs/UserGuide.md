@@ -115,8 +115,6 @@ install rainyDay on your device and start using it. Please refer to the steps be
 6. Type your name and press "Enter". The following will be shown: <br><br>
    ![cmd enter name.png](images/UserGuide/cmdEnterName.png)
 
-<div style="page-break-after: always;"></div>
-
 ## Understanding CLI
 
 - For those who are familiar with what a CLI is, go ahead and proceed to view the [features](#features-overview) that we
@@ -541,6 +539,8 @@ the following command:
 
 [Jump back to Features Overview](#features-overview)
 
+<div style="page-break-after: always;"></div>
+
 ### Data Management
 
 Saving and loading your data is something you don't have to worry about as we got it covered! In this section,
@@ -625,6 +625,8 @@ you can use the following command:
 Format: **`bye`**
 
 [Jump back to Features Overview](#features-overview)
+
+<div style="page-break-after: always;"></div>
 
 ## FAQ
 
