@@ -76,6 +76,8 @@ Please note the following about the format of commands given under each [feature
 * Some technical terminologies are defined in the [glossary](#glossary), clicking on the links will navigate you to the
   glossary where you can read their definitions
 
+<div style="page-break-after: always;"></div>
+
 ## Quick Start
 
 Now that you have learnt how to use this user guide, you are ready to begin! Next, we will show you how to
@@ -112,6 +114,8 @@ install rainyDay on your device and start using it. Please refer to the steps be
    ![cmd start up.png](images/UserGuide/cmdStartUp.png) <br><br>
 6. Type your name and press "Enter". The following will be shown: <br><br>
    ![cmd enter name.png](images/UserGuide/cmdEnterName.png)
+
+<div style="page-break-after: always;"></div>
 
 ## Understanding CLI
 
