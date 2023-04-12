@@ -204,6 +204,8 @@ An integral feature of any financial tracker is to add transactions. The "add" f
 to keep track of your inflows and outflows. The following explains how you can add different types of transactions
 to rainyDay.
 
+<div style="page-break-after: always;"></div>
+
 Format: **`add [DIRECTION] [DESCRIPTION] [AMOUNT] {CATEGORY} {DATE}`**
 
 * `DIRECTION` should be either:
@@ -366,6 +368,8 @@ and use the `view` command afterwards to verify the edits are accurate:
 
 To save time searching through all the entries in the financial report, the "filter" feature of rainyDay
 helps you to extract certain transactions based on specific criteria.
+
+<div style="page-break-after: always;"></div>
 
 Format: **`filter [FLAG] {FIELD}`**
 
