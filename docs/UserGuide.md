@@ -35,6 +35,8 @@ follows:
 
 For more in-depth information, please refer to the [Features Overview](#features-overview) section.
 
+<div style="page-break-after: always;"></div>
+
 ## Content Page
 
 <!-- TOC -->
@@ -121,6 +123,8 @@ install rainyDay on your device and start using it. Please refer to the steps be
   ![understandingCLI.png](images/UserGuide/understandingCLI.png) <br><br>
 - If you are interested in learning more about CLI, you may refer to the following
   [guide](https://www.freecodecamp.org/news/how-to-use-the-cli-beginner-guide/).
+
+<div style="page-break-after: always;"></div>
 
 ## Features Overview
 
